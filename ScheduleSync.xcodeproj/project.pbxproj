@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F529D80298DB16000E1177F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F529D7F298DB16000E1177F /* Theme.swift */; };
+		1F529D82298DB38800E1177F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F529D81298DB38800E1177F /* DailyScrum.swift */; };
+		1F529D84298DB55600E1177F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F529D83298DB55600E1177F /* CardView.swift */; };
+		1F529D86298DB8D800E1177F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F529D85298DB8D800E1177F /* TrailingIconLabelStyle.swift */; };
 		1F953265298D635C00F53146 /* ScheduleSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953264298D635C00F53146 /* ScheduleSyncApp.swift */; };
 		1F953267298D635C00F53146 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953266298D635C00F53146 /* MeetingView.swift */; };
 		1F953269298D635F00F53146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F953268298D635F00F53146 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F529D7F298DB16000E1177F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1F529D81298DB38800E1177F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		1F529D83298DB55600E1177F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1F529D85298DB8D800E1177F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		1F953261298D635C00F53146 /* ScheduleSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F953264298D635C00F53146 /* ScheduleSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSyncApp.swift; sourceTree = "<group>"; };
 		1F953266298D635C00F53146 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F529D7E298DB14D00E1177F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F529D7F298DB16000E1177F /* Theme.swift */,
+				1F529D81298DB38800E1177F /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1F953258298D635C00F53146 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +111,13 @@
 		1F953263298D635C00F53146 /* ScheduleSync */ = {
 			isa = PBXGroup;
 			children = (
+				1F529D7E298DB14D00E1177F /* Models */,
 				1F953264298D635C00F53146 /* ScheduleSyncApp.swift */,
 				1F953266298D635C00F53146 /* MeetingView.swift */,
 				1F953268298D635F00F53146 /* Assets.xcassets */,
 				1F95326A298D635F00F53146 /* Preview Content */,
+				1F529D83298DB55600E1177F /* CardView.swift */,
+				1F529D85298DB8D800E1177F /* TrailingIconLabelStyle.swift */,
 			);
 			path = ScheduleSync;
 			sourceTree = "<group>";
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F529D82298DB38800E1177F /* DailyScrum.swift in Sources */,
+				1F529D86298DB8D800E1177F /* TrailingIconLabelStyle.swift in Sources */,
+				1F529D80298DB16000E1177F /* Theme.swift in Sources */,
 				1F953267298D635C00F53146 /* MeetingView.swift in Sources */,
 				1F953265298D635C00F53146 /* ScheduleSyncApp.swift in Sources */,
+				1F529D84298DB55600E1177F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
