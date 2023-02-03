@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F953265298D635C00F53146 /* ScheduleSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953264298D635C00F53146 /* ScheduleSyncApp.swift */; };
-		1F953267298D635C00F53146 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953266298D635C00F53146 /* ContentView.swift */; };
+		1F953267298D635C00F53146 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953266298D635C00F53146 /* MeetingView.swift */; };
 		1F953269298D635F00F53146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F953268298D635F00F53146 /* Assets.xcassets */; };
 		1F95326C298D635F00F53146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F95326B298D635F00F53146 /* Preview Assets.xcassets */; };
 		1F953276298D635F00F53146 /* ScheduleSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F953275298D635F00F53146 /* ScheduleSyncTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		1F953261298D635C00F53146 /* ScheduleSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F953264298D635C00F53146 /* ScheduleSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSyncApp.swift; sourceTree = "<group>"; };
-		1F953266298D635C00F53146 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F953266298D635C00F53146 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		1F953268298D635F00F53146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F95326B298D635F00F53146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F953271298D635F00F53146 /* ScheduleSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1F953264298D635C00F53146 /* ScheduleSyncApp.swift */,
-				1F953266298D635C00F53146 /* ContentView.swift */,
+				1F953266298D635C00F53146 /* MeetingView.swift */,
 				1F953268298D635F00F53146 /* Assets.xcassets */,
 				1F95326A298D635F00F53146 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F953267298D635C00F53146 /* ContentView.swift in Sources */,
+				1F953267298D635C00F53146 /* MeetingView.swift in Sources */,
 				1F953265298D635C00F53146 /* ScheduleSyncApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
